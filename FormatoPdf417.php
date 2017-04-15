@@ -8,7 +8,7 @@ $Caratula["RutEmisor"]="7777777-7";
 $Caratula["RutEnvia"]="33333333-3";
 # EN MODO CERTIFICACION RUT=60803000-K
 $Caratula["RutReceptor"]="60803000-K";  
-# FECHA DE RESOLUCIÓN DE INICIO EN FACTURA ELECTRONICA
+# FECHA DE RESOLUCIÃ“N DE INICIO EN FACTURA ELECTRONICA
 $Caratula["FchResol"]="2014-08-22"; 
 # CERTIFICACION NUM=CERO
 $Caratula["NroResol"]="80"; 
@@ -17,7 +17,7 @@ $Caratula["SucSii"]="PUNTA ARENAS";
 ##############################################################   
 #######	ENCABEZADO
 ############################################################## 
-# FECHA DE EMISIÓN
+# FECHA DE EMISIÃ“N
 $IdDoc["FchEmis"]="2016-08-05"; 
 # TIPO DE DOCUMENTO 39=BOLETA ELECTRONICA
 $IdDoc["TipoDTE"]="39"; 
@@ -106,19 +106,6 @@ $Detalle["1"]["MontoItem"]="10000"; # MONTO TOTAL DEL ITEM
 $Detalle["1"]["DscItemPesos"]="0"; # DESCUENTO PESOS ITEM
 $Detalle["1"]["IndExe"]="0"; # ITEMS EXENTOS 1=SI 0=NO
 $Detalle["1"]["DescuentoPct"]="0"; # DESCUENTO PORC. ITEM 
-# LINEA 2 DEL DOCUMENTO
-$Detalle["2"]["NroLinDet"]="1"; # NUMERO DE LINEA
-$Detalle["2"]["NmbItem"]="Whisky JB Gold"; # NOMBRE DEL ITEM
-$Detalle["2"]["TpoCodigo"]="INT1"; # TIPO DE CODIGO P=PRODUCTO C=CUENTA M=MATERIAPRIMA I=INSUMO
-$Detalle["2"]["UnmdItem"]="UNI"; # UNIDAD DE MEDIDA DEL ITEM KG=KILOGRAMO
-$Detalle["2"]["QtyItem"]="1"; # CANTIDAD DE UNDS.
-$Detalle["2"]["VlrCodigo"]="110224"; # CODIGO ITEM
-$Detalle["2"]["PrcItem"]="10000"; # PRECIO UNITARIO
-$Detalle["2"]["DscItem"]="Ron Edicion gold"; 
-$Detalle["2"]["MontoItem"]="10000"; # MONTO TOTAL DEL ITEM
-$Detalle["2"]["DscItemPesos"]="0"; # DESCUENTO PESOS ITEM
-$Detalle["2"]["IndExe"]="0"; # ITEMS EXENTOS 1=SI 0=NO
-$Detalle["2"]["DescuentoPct"]="0"; # DESCUENTO PORC. ITEM
 ############################################################## 
 #######	DATOS CERTIFICADO DE PERSONA QUE FIRMA Y ENVIA
 ##############################################################
