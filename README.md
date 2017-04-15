@@ -2,7 +2,7 @@
 Generar Timbre Pdf417
 
 <h3>Paso 1: Enviar el Archivo Txt al servidor de Facturación:</h3>
-<br><b>Para Enviar desde Linux:</b>
+<br><b>Usuarios Linux:</b>
 <br>curl --form "archivito=@FormatoBoletaElectronica.php" http://www.factronica.cl/servidores/factronica_webservice_servidor_timbreelectronico/index.php
 
 <br><b>Usuarios windows:</b>
